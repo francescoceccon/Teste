@@ -826,6 +826,15 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+#depression{
+  background-image: url("../img/depressao.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 80px;
+}
+
+
 .services .icon-box {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   padding: 50px 30px;
