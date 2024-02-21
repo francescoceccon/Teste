@@ -124,19 +124,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 30px;
   margin: 0;
   padding: 0;
-  line-height: 1;
-  background-image: url('/assets/img/Foto perfil.png') ;
+  background-image: url('../img/MM.Logo.svg') ;
   background-position: center;
   background-size: cover;
   width: 180px;
   height: 180px;
-  border: solid red;
 }
-
-#header .logo a {
-  color: #fff;
-}
-
 #header .logo img {
   max-height: 40px;
 }
