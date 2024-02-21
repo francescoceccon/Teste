@@ -587,7 +587,7 @@ section {
 # About Us
 --------------------------------------------------------------*/
 .about {
-  background: #ffebf7;
+  background: #ffebf7ee;
 }
 .about .content h3 {
   font-weight: 600;
@@ -689,7 +689,7 @@ section {
 
 .why-us .accordion-list li {
   padding: 20px;
-  background: #ffebf7;
+  background: #ffebf7ee;
   border-radius: 4px;
 }
 
@@ -871,7 +871,7 @@ section {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
-  background: #ffebf7;
+  background: #ffebf7ee;
 }
 
 .services .icon-box .icon {
