@@ -9,9 +9,11 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #444444;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  color: #555555;
   background-image: linear-gradient(0deg, #ee9ca7, #ffdde1);
+  font-size: 1.2em;
 }
 
 a {
@@ -31,6 +33,12 @@ h1, h2, h3, h4, h5, h6 {
 #whatsAppButton {
   background-color: #469b98;
   color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#whatsAppButton:hover {
+  background-color: #ee9ca7; /* Altera a cor de fundo */
 }
 
 /*--------------------------------------------------------------
@@ -44,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #37517e;
+  background: #ee9ca7;
 }
 
 #preloader:before {
@@ -52,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #37517e;
+  border: 6px solid #ffdde1;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -172,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 500;
   color: #469b98;
   white-space: nowrap;
@@ -897,7 +905,7 @@ section {
 
 .services .icon-box p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 0;
 }
 
@@ -1665,6 +1673,13 @@ section {
   font-size: 14px;
   background: #469b98;
 }
+
+/* @media (max-width: 768px) {
+  #footer {
+    text-align: center;
+  }
+} */
+
 
 #footer .footer-newsletter {
   padding: 50px 0;
