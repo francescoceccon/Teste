@@ -820,6 +820,11 @@ section {
   background: rgba( 238, 156, 167, 0.3);
 }
 
+.CPA .icon-box:hover {
+  transform: translateY(-10px);
+}
+
+
 .CPA .icon-box h4 {
   color: #469b98;
 }
