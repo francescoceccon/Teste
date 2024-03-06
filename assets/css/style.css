@@ -147,6 +147,12 @@ h1, h2, h3, h4, h5, h6 {
   height: 25vh;
 }
 
+@media (max-width:991px) {
+  #header.header-scrolled{
+    height: 220px;
+  }
+}
+
 #header .logo {
   font-size: 30px;
   margin: 0;
